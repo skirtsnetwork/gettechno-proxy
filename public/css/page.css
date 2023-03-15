@@ -401,6 +401,9 @@ header .image-text .profession{
 .cards .now {
     background-image: url("../img/apps/now.png");
 }
+.cards .krunker {
+    background-image: url("../img/games/krunker.png");
+}
 .a {
     margin-top: 20px;
     margin-left: 50px;
@@ -457,27 +460,16 @@ button {
 .cards .trad {
     background-image: url("../img/apps/trad.png");
 }
-.cards .instagram {
-    background-image: url("../img/apps/instagram.png");
-}
-.cards .twitter {
-    background-image: url("../img/apps/twitter.jpg");
-}
 .cards .spotify {
     background-image: url("../img/apps/spotify.png");
 }
-.cards .surviv {
-    background-image: url("../img/games/krunker.png");
+.cards .koyeb{
+    background-image: url("../img/apps/koyeb.png");
 }
-.cards .elixir{
-    background-image: url("../img/apps/elixir.png");
+.cards .diep{
+    background-image: url("../img/games/diep.png");
 }
-.cards .render{
-    background-image: url("../img/apps/render.jpg");
-}
-.cards .gitlab{
-    background-image: url("../img/apps/gitlab.png");
-}
+
 
 .widget1 img{
     height: 40px;

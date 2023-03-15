@@ -20,31 +20,7 @@ function checktheusername(){
         
     }   
     document.getElementById("username").innerHTML = localStorage.getItem('nickname')
-    if (localStorage.getItem('nickname')==="X-crash-X"){
-        document.getElementById("vip").innerHTML = "MVP"
-    }
     if (localStorage.getItem('nickname')==="AldessSc"){
         document.getElementById("grade").innerHTML = "CEO"
-    }
-    if (localStorage.getItem('nickname')==="SuperCool"){
-        document.getElementById("vip").innerHTML = "MVP"
-    }
-    if (localStorage.getItem('nickname')==="AldessSc"){
-        document.getElementById("vip").innerHTML = " ADMIN"
-    }
-    if (localStorage.getItem('nickname')==="Foxyz"){
-        document.getElementById("vip").innerHTML = "VIP"
-    }
-    if (localStorage.getItem('nickname')==="Pix4rt"){
-        document.getElementById("grade").innerHTML = "STAFF"
-    }
-    if (localStorage.getItem('nickname')==="Arrox78"){
-        document.getElementById("vip").innerHTML = "VIP"
-    }
-  if (localStorage.getItem('nickname')==="Nul0923"){
-        document.getElementById("vip").innerHTML = "VIP"
-    }
-  if (localStorage.getItem('nickname')==="Henri"){
-        document.getElementById("vip").innerHTML = "VIP"
     }
 }
