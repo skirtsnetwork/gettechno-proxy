@@ -30,10 +30,7 @@ function openURL(url) {
       if (!isUrl(url)) url = 'https://www.google.com/search?q=' + url;
       else if (!(url.startsWith("https://") || url.startsWith("http://")))
         url = "http://" + url;
-
-        
-        let urle = __uv$config.prefix + __uv$config.encodeUrl(url);
-        localStorage.setItem('iframeurl', urle)
+        localStorage.setItem('iframeurl', __uv$config.prefix + __uv$config.encodeUrl(url))
         window.open("./iframe.html")
     });
 };
