@@ -9,7 +9,7 @@
 - Integrated proxy
 - Url opener
 
-# Credits
+## Credits
 
 - Caracal.js (Creator of Ultraviolet)
 - Divide (Creator of TOMP)
