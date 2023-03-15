@@ -31,7 +31,7 @@ function openURL(url) {
       else if (!(url.startsWith("https://") || url.startsWith("http://")))
         url = "http://" + url;
         localStorage.setItem('iframeurl', __uv$config.prefix + __uv$config.encodeUrl(url))
-        window.open("./iframe.html")
+        window.location.href = "./iframe.html"
     });
 };
 
